@@ -21,8 +21,7 @@
 构建：
 
 ```bash
-$ cd simple_httpd/
-$ cd ./build/
+$ cd ./simple_httpd/build/
 $ cmake ..
 -- The C compiler identification is GNU 4.8.5
 -- Check for working C compiler: /usr/bin/cc
