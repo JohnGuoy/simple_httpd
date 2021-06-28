@@ -17,11 +17,13 @@ ____________________________________________________________________________
 如果要测试 Python 或者 PHP 动态脚本，那么还需要安装并配置好 Python 或者 PHP 的运行环境。
 
 克隆代码到本地工作目录：
-`$ git clone`
+
+`$ git clone https://github.com/JohnGuoy/simple_httpd.git`
 
 构建：
 
 ```bash
+$ cd simple_httpd/
 $ cd ./build/
 $ cmake ..
 -- The C compiler identification is GNU 4.8.5
@@ -44,7 +46,9 @@ Linking C executable simple_httpd
 ## 运行
 
 运行 simple_httpd 程序，绑定任意未被占用的端口，Web 根目录默认是当前工作目录：
+
 `$ ./simple_httpd 6677`
+
 打开浏览器，输入以下 URL 进行测试：
 
 ```url
